@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "sportsdb": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "main.py"],
+      "cwd": "C:\\Users\\omerf\\football",
+      "env": { "THESPORTSDB_API_KEY": "123" }
+    }
+  }
+}
